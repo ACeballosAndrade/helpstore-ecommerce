@@ -1,0 +1,75 @@
+/* Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*Variables CSS*/
+:root {
+  --card-bg-01: #e4e2e2;
+  --card-bg-02: red;
+  --card-bg-03: blue;
+  --card-bg-04: green;
+  --primary-color: #10296e;
+  --hero-bg: #fffefe;
+  --heading-fontSize: 2rem;
+  --small-text-color: #8d8d8d;
+  --heading-text-color: #2563eb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: var(--small-text-color);
+  font-size: 1rem;
+}
+
+h1,
+h2 {
+  font-size: var(--heading-fontSize);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: unset !important;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  padding: 60px 0px;
+}
+
+.section__title_c {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+@media only screen and (max-width:768px) {
+  section {
+    padding: 40px 0px;
+  }
+}

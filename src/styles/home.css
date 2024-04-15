@@ -1,0 +1,18 @@
+.banner__section {
+  background: var(--hero-bg);
+  padding: 0;
+  
+}
+
+.mb_slider {
+  display: none;
+}
+
+@media only screen and (max-width:768px) {
+  .dk_slider {
+    display: none;
+  }
+  .mb_slider {
+    display: block;
+  }
+}
